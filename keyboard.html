@@ -1,6 +1,51 @@
 <!doctype html>
 <html lang="en">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style/main.css">
+<style>
+	table {
+		border-collapse: collapse;
+		table-layout: fixed;
+		font-family: Helvetica, sans-serif;
+		font-weight: bold;
+	}
+
+	th, td {
+		border: 1px solid lightgray;
+		width: 80px;
+		height: 80px;
+		text-align: center;
+		padding: 0;
+	}
+
+	table table {
+		display: inline-table;
+	}
+
+	table table td {
+		border: 0;
+		width: 1.5em;
+		height: 1.5em;
+	}
+
+	.s {
+		color: blue;
+	}
+
+	.f {
+		color: green;
+	}
+
+	.c {
+		color: brown;
+	}
+
+	.s.c {
+		background: -webkit-linear-gradient(-45deg, blue 0%, blue 47%, brown 48%);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+</style>
 <title>Szabolcs</title>
 <header role="navigation">
 	<a href="/">Home</a>
@@ -795,48 +840,3 @@
 	<a href="http://www.konomark.org/"><img alt="Konomark" src="/images/konomark.png"></a>
 	<a href="http://www.kopimi.com/"><img alt="Kopimi" src="/images/kopimi.png"></a>
 </footer>
-<link rel="stylesheet" href="style/main.css">
-<style>
-	table {
-		border-collapse: collapse;
-		table-layout: fixed;
-		font-family: Helvetica, sans-serif;
-		font-weight: bold;
-	}
-
-	th, td {
-		border: 1px solid lightgray;
-		width: 80px;
-		height: 80px;
-		text-align: center;
-		padding: 0;
-	}
-
-	table table {
-		display: inline-table;
-	}
-
-	table table td {
-		border: 0;
-		width: 1.5em;
-		height: 1.5em;
-	}
-
-	.s {
-		color: blue;
-	}
-
-	.f {
-		color: green;
-	}
-
-	.c {
-		color: brown;
-	}
-
-	.s.c {
-		background: -webkit-linear-gradient(-45deg, blue 0%, blue 47%, brown 48%);
-		-webkit-background-clip: text;
-		-webkit-text-fill-color: transparent;
-	}
-</style>
